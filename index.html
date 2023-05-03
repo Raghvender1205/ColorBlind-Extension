@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"0>
+    <link rel="icon" type="image/x-icon" href="/eye-clipart-transparent-3.png">
+
+
+    <title>Colourblind Bookmarklet</title>
+
+    <style>
+        body {
+            background-color:#F3F3F5;
+            color: #333;
+            
+            margin: 0 ;
+            padding: 1em;
+        }
+        
+        
+        
+        
+        nav{
+            display: flex;
+            align-items: center;
+            
+        }
+        .logo a img{
+            width: 3rem;
+            height: auto;
+        }
+        .logo:hover{
+            border-radius: 10%;
+            background-color: gray;
+        }
+        ul{
+            display: inline;
+            list-style: none;
+        }
+        .ul1 li{
+            font-size: 1.5rem;
+            float: left;
+            padding: 2rem;
+            
+            
+        }
+        .ul1 li a{
+            color: #0060B6;
+    text-decoration: none;
+        }
+        .ul1 li:hover{
+            background-color: gray;
+            border-radius: 10%;
+        }
+        .textcon{
+            display: flex;
+            
+        }
+        .mainbox{
+            display: flex;
+
+        }
+        .mainbox{
+            display: flex; 
+            flex-direction: column;
+
+        }
+        .turn{
+            margin-top: 1.5rem;
+            font-size: 5rem;
+        }
+        .IdeasInto{
+            font-size: 5rem;
+
+        }
+        .Reality{
+            font-size: 5rem;
+        }
+        .i{ padding-top: 2rem;
+            margin-left: 6rem;
+        }
+        .i img{
+            
+            height: 16rem;
+
+        
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        align-items: center ;
+    border: #333;
+border-style: solid;}
+
+        .info p{
+            font-size: 2rem;
+        }
+        .info button{
+            width: 8rem;
+            
+            height: 3.5rem;
+
+
+        }
+        .info button a{
+            color: #0060B6;
+    text-decoration: none;
+        }
+        .info img{
+            width: 20rem;
+        }
+        .steps{
+            font-size: 2rem;
+            margin-top: 5rem;
+            margin-bottom: 3rem;
+        }
+        footer{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .importantlinks{
+            display: flex;
+            flex-direction: column;
+            list-style: none;   }
+        .links li{
+                border-bottom: 1px solid #333;
+  
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+            }
+            .about{
+                font-size: 1.5rem;
+            }
+    </style>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+
+                <a href="index.html"><img  src="/eye-clipart-transparent-3.png"></a>
+            </div>
+            <ul class="ul1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Protanopia.html">Protanopia</a></li>
+                <li><a href="Deuteranopia.html">Deuteranopia</a></li>
+                <li><a href="Tritanopia.html">Tritanopia</a></li>
+                
+            </ul>
+        </nav>
+        <div class="textcon">
+
+            <div class="mainbox">
+                <div class="turn">TURN</div>
+                <div class="IdeasInto">IDEAS INTO</div>
+                <div class="Reality">REALITY</div>
+            </div>
+            <div class="i">
+                <img src="/banner.png" alt="" srcset="">
+            </div>
+        </div>
+    <div class="steps">
+        TO GET STARTED FOLLOW THE INSTRCUTIONS 
+    </div>
+        <div class="info">
+           <p>Drag this link to your bookmarks</p> 
+           
+           <img src="https://www.pngkey.com/png/detail/119-1197446_img-3-arrow-down-drawn-3-arrows-down.png" alt="Img 3 Arrow Down Drawn - 3 Arrows Down@pngkey.com">
+        
+        <button><a 
+            href="javascript:(function(){var s=document.getElementById(&quot;colourblind-styling&quot;);var x=document.getElementById(&quot;colourblind-filters&quot;);if(!s){s=document.createElement(&quot;style&quot;);document.body.appendChild(s)}if(!x){x=document.createElement(&quot;div&quot;);x.setAttribute(&quot;style&quot;,&quot;height: 0; padding: 0; margin: 0; line-height: 0;&quot;);x.innerHTML=&#39;&lt;svg id=&quot;colorblind-filters&quot; style=&quot;display: none&quot;&gt; &lt;defs&gt; &lt;filter id=&quot;protanopia&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.567,0.433,0,0,0 0.558,0.442,0,0,0 0 0.242,0.758,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;protanomaly&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.817,0.183,0,0,0 0.333,0.667,0,0,0 0,0.125,0.875,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;deuteranopia&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.625,0.375,0,0,0 0.7,0.3,0,0,0 0,0.3,0.7,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;deuteranomaly&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.8,0.2,0,0,0 0.258,0.742,0,0,0 0,0.142,0.858,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;tritanopia&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.95,0.05,0,0,0 0,0.433,0.567,0,0 0,0.475,0.525,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;tritanomaly&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.967,0.033,0,0,0 0,0.733,0.267,0,0 0,0.183,0.817,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;achromatopsia&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.299,0.587,0.114,0,0 0.299,0.587,0.114,0,0 0.299,0.587,0.114,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;achromatomaly&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.618,0.320,0.062,0,0 0.163,0.775,0.062,0,0 0.163,0.320,0.516,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;/defs&gt; &lt;/svg&gt;&#39;;document.body.appendChild(x)}var l=[&quot;protanopia&quot;,&quot;protanomaly&quot;,&quot;deuteranopia&quot;,&quot;deuteranomaly&quot;,&quot;tritanopia&quot;,&quot;tritanomaly&quot;,&quot;achromatopsia&quot;,&quot;achromatomaly&quot;];var p=&quot;&quot;;for(var i in l)p+=parseInt(i)+1+&quot;: &quot;+l[i]+&quot;; &quot;;var c=parseInt(prompt(&quot;0: off; &quot;+p))-1;if(isNaN(c))return;if(c&gt;=l.length)return;if(c==-1){s.innerHTML=&quot;body{-webkit-filter:none;-moz-filter:none;-ms-filter:none;-o-filter:none;filter:none;}&quot;;return}c=l[c];if(document.getElementById(c))s.innerHTML=&quot;body{-webkit-filter:!!;-moz-filter:!!;-ms-filter:!!;-o-filter:!!;filter:!!;}&quot;.replace(/!!/g,&quot;url(#&quot;+c+&quot;)&quot;);else s.innerHTML=&quot;body{-webkit-filter:none;-moz-filter:none;-ms-filter:none;-o-filter:none;filter:none;}&quot;})();">Colour Blind</a></button>
+    
+        <p>After Dragging just go to your desired website and click on the bookmark and input the type of color blindness</p>
+    </div>
+    <footer>
+        
+
+        <div class="about">
+            About Us:
+            <p>
+                We are the Students of Batch 2023 Studying computer Science Engineering,<br>
+                we are working in a group of 2 me and Raghvender changotra and we designed this<br>
+                website for our lab subject Human Computer Interaction.
+
+            </p>
+
+        </div>
+        <div class="importantlinks">
+            <p>Important Links</p>
+            <div class="links">
+
+                <ul>
+                    <li>Terms & Conditions</li>
+                    <li>About Licences</li>
+                    <li>Help & Support</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="contactinfo">
+            Phone:<br>
++91 123456789<br>
++91 123456789<br>
+
+Email:<br>
+support@gmail.com<br>
+support@gmail.com<br>
+        </div>
+    </div>
+    </footer>
+        
+    </body>
+</html>
